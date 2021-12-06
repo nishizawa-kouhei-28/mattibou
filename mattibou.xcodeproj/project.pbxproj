@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0D3AB8275D9C75008EBB31 /* ButtleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D3AB7275D9C74008EBB31 /* ButtleView.swift */; };
+		CC0D3ABA275D9C7D008EBB31 /* ButtleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D3AB9275D9C7D008EBB31 /* ButtleModel.swift */; };
 		CC4394972758D18B00D8BF8F /* mattibouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4394962758D18B00D8BF8F /* mattibouApp.swift */; };
 		CC4394992758D18B00D8BF8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4394982758D18B00D8BF8F /* ContentView.swift */; };
 		CC43949B2758D18C00D8BF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC43949A2758D18C00D8BF8F /* Assets.xcassets */; };
 		CC43949E2758D18C00D8BF8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC43949D2758D18C00D8BF8F /* Preview Assets.xcassets */; };
+		CC4394A52759B0EE00D8BF8F /* startgamen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4394A42759B0EE00D8BF8F /* startgamen.swift */; };
+		CC4394A7275CE5EF00D8BF8F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4394A6275CE5EF00D8BF8F /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC0D3AB7275D9C74008EBB31 /* ButtleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtleView.swift; sourceTree = "<group>"; };
+		CC0D3AB9275D9C7D008EBB31 /* ButtleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtleModel.swift; sourceTree = "<group>"; };
 		CC4394932758D18B00D8BF8F /* mattibou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mattibou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4394962758D18B00D8BF8F /* mattibouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mattibouApp.swift; sourceTree = "<group>"; };
 		CC4394982758D18B00D8BF8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC43949A2758D18C00D8BF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC43949D2758D18C00D8BF8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC4394A42759B0EE00D8BF8F /* startgamen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startgamen.swift; sourceTree = "<group>"; };
+		CC4394A6275CE5EF00D8BF8F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				CC4394962758D18B00D8BF8F /* mattibouApp.swift */,
 				CC4394982758D18B00D8BF8F /* ContentView.swift */,
+				CC4394A42759B0EE00D8BF8F /* startgamen.swift */,
+				CC4394A6275CE5EF00D8BF8F /* SwiftUIView.swift */,
+				CC0D3AB9275D9C7D008EBB31 /* ButtleModel.swift */,
+				CC0D3AB7275D9C74008EBB31 /* ButtleView.swift */,
 				CC43949A2758D18C00D8BF8F /* Assets.xcassets */,
 				CC43949C2758D18C00D8BF8F /* Preview Content */,
 			);
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC4394992758D18B00D8BF8F /* ContentView.swift in Sources */,
+				CC4394A52759B0EE00D8BF8F /* startgamen.swift in Sources */,
+				CC0D3AB8275D9C75008EBB31 /* ButtleView.swift in Sources */,
+				CC0D3ABA275D9C7D008EBB31 /* ButtleModel.swift in Sources */,
+				CC4394A7275CE5EF00D8BF8F /* SwiftUIView.swift in Sources */,
 				CC4394972758D18B00D8BF8F /* mattibouApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
